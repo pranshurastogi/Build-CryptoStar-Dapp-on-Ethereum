@@ -30,7 +30,7 @@
                 web3 = new Web3(web3.currentProvider) // what Metamask injected 
             } else {
                 // Instantiate and set Ganache as your provider
-                web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/v3/9f1fb598e3424075854ee430b1b69a7e"));
+                web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/ea8cfec2d8064cefbc1324e977a6e992"));
             }
 
             // The default (top) wallet account from a list of test accounts 
@@ -493,7 +493,7 @@
                 ]
             );
             // Grab the contract at specified deployed address with the interface defined by the ABI
-            var starNotary = StarNotary.at('0xbf0433Ef737636dfCB3721B8D92ecE88d1Dd9258');
+            var starNotary = StarNotary.at('0x5b9E785901C4cfaca831D0e34732847AA8B1fd0c');
             
             // Enable claim button being clicked
             function claimButtonClicked() { 
