@@ -28,7 +28,7 @@ Compiling your contracts...
 Here rinkeby defines specific network node
 
 truffle migrate --network rinkeby
-
+```
 Compiling your contracts...
 ===========================
 > Everything is up to date, there is nothing to compile.
