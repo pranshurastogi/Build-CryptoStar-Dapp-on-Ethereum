@@ -144,6 +144,3 @@ Summary
 > Final cost:          0.02476349 ETH
 ```
 
-### To see Contract on Etherscan
-
-https://rinkeby.etherscan.io/address/0x5b9E785901C4cfaca831D0e34732847AA8B1fd0c
